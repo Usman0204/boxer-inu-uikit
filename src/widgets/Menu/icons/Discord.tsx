@@ -2,11 +2,9 @@ import React from "react";
 import Svg from "../../../components/Svg/Svg";
 import { SvgProps } from "../../../components/Svg/types";
 
-interface LogoProps extends SvgProps {
-  isDark: boolean;
-}
 
-const Icon: React.FC<LogoProps> = ({ isDark, ...props }) => {
+
+const Icon: React.FC<SvgProps> = (props) => {
  
   return (
     <Svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24" {...props}>

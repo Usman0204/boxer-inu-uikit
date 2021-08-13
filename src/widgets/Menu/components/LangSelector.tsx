@@ -17,11 +17,12 @@ interface Props {
 }
 
 const LangSelector: React.FC<Props> = ({ currentLang, langs, setLang }) => (
-  <Dropdown
+  <Dropdown 
+    
     position="top-right"
     target={
-      <Button variant="text" startIcon={<LanguageIcon color="textSubtle" width="24px" />}>
-        <Text color="textSubtle">{currentLang?.toUpperCase()}</Text>
+      <Button variant="text" startIcon={<LanguageIcon color="textSubtle" width="24px"  display='none'/>}>
+        <Text color="textSubtle" >{''}</Text>
       </Button>
     }
   >
@@ -31,7 +32,7 @@ const LangSelector: React.FC<Props> = ({ currentLang, langs, setLang }) => (
         fullWidth
         onClick={() => setLang(lang)}
         // Safari fix
-        style={{ minHeight: "32px", height: "auto" }}
+        style={{ minHeight: "32px", height: "auto" , display:'none' }}
       >
         {lang.language}
       </MenuButton>

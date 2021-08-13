@@ -1,9 +1,9 @@
 export const links = [
-  {
-    label: "Home",
-    icon: "HomeIcon",
-    href: "/",
-  },
+  // {
+  //   label: "Home",
+  //   icon: "HomeIcon",
+  //   href: "/",
+  // },
   {
     label: "Trade",
     icon: "TradeIcon",
@@ -28,89 +28,105 @@ export const links = [
     icon: "PoolIcon",
     href: "/syrup",
   },
+
   {
     label: "Lottery",
     icon: "TicketIcon",
     href: "/lottery",
   },
   {
-    label: "NFT",
+    label: 'GAMES',
+    icon: 'InfoIcon',
+    href: '',
+  },
+  {
+    label: "NFT MARKETPLACE",
     icon: "NftIcon",
     href: "/nft",
   },
   {
-    label: "Profile & Teams",
-    icon: "GroupsIcon",
-    items: [
-      {
-        label: "Leaderboard",
-        href: "/teams",
-      },
-      {
-        label: "YourProfile",
-        href: "/",
-      },
-    ],
-    calloutClass: "rainbow",
+    label: 'Blog',
+    icon: 'BlogIcon',
+    href: '',
   },
   {
-    label: "Info",
-    icon: "InfoIcon",
-    items: [
-      {
-        label: "Overview",
-        href: "https://pancakeswap.info",
-      },
-      {
-        label: "Tokens",
-        href: "https://pancakeswap.info/tokens",
-      },
-      {
-        label: "Pairs",
-        href: "https://pancakeswap.info/pairs",
-      },
-      {
-        label: "Accounts",
-        href: "https://pancakeswap.info/accounts",
-      },
-    ],
+    label: 'DOCS',
+    icon: 'HomeIcon',
+    href: '',
   },
-  {
-    label: "IFO",
-    icon: "IfoIcon",
-    items: [
-      {
-        label: "Next",
-        href: "/ifo",
-      },
-      {
-        label: "History",
-        href: "/ifo/history",
-      },
-    ],
-  },
-  {
-    label: "More",
-    icon: "MoreIcon",
-    items: [
-      {
-        label: "Voting",
-        href: "https://voting.pancakeswap.finance",
-      },
-      {
-        label: "Github",
-        href: "https://github.com/pancakeswap",
-      },
-      {
-        label: "Docs",
-        href: "https://docs.pancakeswap.finance",
-      },
-      {
-        label: "Blog",
-        href: "https://pancakeswap.medium.com",
-      },
-    ],
-  },
+  // {
+  //   label: "Profile & Teams",
+  //   icon: "GroupsIcon",
+  //   items: [
+  //     {
+  //       label: "Leaderboard",
+  //       href: "/teams",
+  //     },
+  //     {
+  //       label: "YourProfile",
+  //       href: "/",
+  //     },
+  //   ],
+  //   calloutClass: "rainbow",
+  // },
+  // {
+  //   label: "Info",
+  //   icon: "InfoIcon",
+  //   items: [
+  //     {
+  //       label: "Overview",
+  //       href: "https://pancakeswap.info",
+  //     },
+  //     {
+  //       label: "Tokens",
+  //       href: "https://pancakeswap.info/tokens",
+  //     },
+  //     {
+  //       label: "Pairs",
+  //       href: "https://pancakeswap.info/pairs",
+  //     },
+  //     {
+  //       label: "Accounts",
+  //       href: "https://pancakeswap.info/accounts",
+  //     },
+  //   ],
+  // },
+  // {
+  //   label: "IFO",
+  //   icon: "IfoIcon",
+  //   items: [
+  //     {
+  //       label: "Next",
+  //       href: "/ifo",
+  //     },
+  //     {
+  //       label: "History",
+  //       href: "/ifo/history",
+  //     },
+  //   ],
+  // },
+  // {
+  //   label: "More",
+  //   icon: "MoreIcon",
+  //   items: [
+  //     {
+  //       label: "Voting",
+  //       href: "https://voting.pancakeswap.finance",
+  //     },
+  //     {
+  //       label: "Github",
+  //       href: "https://github.com/pancakeswap",
+  //     },
+  //     {
+  //       label: "Docs",
+  //       href: "https://docs.pancakeswap.finance",
+  //     },
+  //     {
+  //       label: "Blog",
+  //       href: "https://pancakeswap.medium.com",
+  //     },
+  //   ],
+  // },
 ];
 
 export const socials = [
@@ -120,7 +136,7 @@ export const socials = [
     items: [
       {
         label: "English",
-        href: "https://t.me/pancakeswap",
+        href: "https://t.me/BoxerInuOfficial",
       },
     
     ],
@@ -128,7 +144,7 @@ export const socials = [
   {
     label: "Twitter",
     icon: "TwitterIcon",
-    href: "https://twitter.com/pancakeswap",
+    href: "https://twitter.com/BoxerInuFinance",
   },
   {
     label: "Instagram",

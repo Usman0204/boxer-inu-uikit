@@ -18,3 +18,5 @@ export { default as TradeIcon } from "./Trade";
 export { default as TwitterIcon } from "./Twitter";
 export { default as DiscordIcon } from "./Discord";
 export { default as InstagramIcon } from "./Instagram";
+export { default as  BlogIcon} from "./Blog";
+export { default as DocsIcon } from "./Docs";
